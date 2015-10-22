@@ -19,3 +19,4 @@ for i = 1:maxsteps
     end 
     A(i+1) = A(i) - f(A(i))/df(A(i)); 
 end
+

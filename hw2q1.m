@@ -6,7 +6,8 @@
 % Question 1 %
 %%%%%%%%%%%%%%
 
-% Algorithm for matrix multiplication using only multiplication by scalars.
+% Algorithm for matrix multiplication using only multiplication by
+% scalars.%
 
 function product = hw2q1(A, B)
 [m1,n1] = size(A); 
@@ -19,5 +20,5 @@ for i = 1:m1
         end
     end
 end
-disp(base_matrix);
+product = base_matrix;
 end

@@ -1,3 +1,13 @@
+% Andrew Milich 
+% 10/9/15
+% Math 51M: Homework 2
+
+%%%%%%%%%%%%%%
+% Question 2 %
+%%%%%%%%%%%%%%
+
+% Strassen multiplication. % 
+
 function M = hw2q2(A, B)
     [r1,c1] = size(A);
     [r2,c2] = size(B);
